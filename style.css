@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-image: url(./img/bg.png);
+}
+.contener{
+    width: 80%;
+    margin: auto;
+}
+.header-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.header-right{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    align-items: center;
+
+}
+.header-phone{
+    text-align: right;
+    align-items: center;
+  
+}
+
+nav ul{
+    display: flex;
+    text-align: right;
+    flex-direction: row-reverse;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 0 10px;
+
+}
+
+.hero-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+}
+
+
+.hero-left-content h5{
+    border: 1px dotted black;
+    display: inline;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.hero-left-content h1{
+    font-size: 90px;
+    margin: 0;
+}
+.hero-left-content h2{
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.hero-right-content{
+    text-align: center;
+}
+
+
+.hero-right-content img{
+    width: 100%;
+
+}
+.scend-section{
+    padding: 50px 20px;
+}
+.scend-section-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+  
+}
+.fast-img img{
+    width: 100%;
+    
+}
+.scend-img{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+   grid-gap: 25px;
+}
+.scend-fast-img img{
+    width: 100%;
+}
+.scend-scend-img img{
+    width: 100%;
+}
+.therd-section-tex{
+    text-align: center;
+}
+.therd-section-tex h3{
+    background-color: gold;
+    display: inline;
+    padding: 10px;
+}
+.therd-section-tex h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.burger-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding-top: 50px;
+}
+.burger1 img{
+    width: 100%;
+}
+.burger1{
+    text-align: center;
+}
+.btn{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.btn a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    background-color: crimson;
+}
+.four-section-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.four-section-tex{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.logo{
+    margin-top: 90px;
+}
+
+
+
+
+
+.four-section-img img{
+ width: 100%;
+}
+
+
+
+
+
+
+
+.fivethed-secation{
+    padding-top: 100px;
+    background-image: url(./img/Burger.png);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    
+}
+.fivethed-secation-content{
+    text-align: center;
+}
+.fivethed-secation-text h3{
+    font-size: 30px;
+}
+.fivethed-secation-text h1{
+    font-size: 6    0px;
+}
+
+.frome{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.bottel img{
+    width: 100%;
+}
+.box2 .text{
+    padding: 50px;
+}
+
+
+.box4 img{
+    width: 100%;
+}
+
+
+
+footer{
+    background-image: url(./img/Place\ Your\ Design\ Here\ \(Double\ Click\ to\ Edit\).png);
+    background-repeat: no-repeat;
+}
+.six-section-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.six-section-left{
+    margin-top: 50px;
+}
+.six-section-left p{
+    color: #fff;
+}
+.fotter-logo{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
